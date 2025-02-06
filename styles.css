@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  font-family: "Shantell Sans", sans-serif;
+  background-color: #282b35;
+}
+
+.title {
+  color: #f9796e;
+  text-align: center;
+}
+
+#why-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #f9796e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+#reasons {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  min-height: 30vh;
+  max-height: 60vh;
+  width: 100%;
+  max-width: 700px;
+}
+#reasons .reason {
+  margin: 20px 0;
+}
+#reasons .reason .num {
+  margin-right: 10px;
+  color: #424040;
+}
+#reasons .reason .text {
+  color: #e47272;
+}/*# sourceMappingURL=styles.css.map */
